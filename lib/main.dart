@@ -49,7 +49,8 @@ class _AnaEkranState extends State<AnaEkran> {
     });
   }
 
-  //Toplama değikenleri
+  //çıkarma değikenleri
+
   sayiCikar() {
     setState(() {
       sayi1 = num.parse(t1.text);
