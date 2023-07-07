@@ -40,6 +40,7 @@ class _AnaEkranState extends State<AnaEkran> {
 
   TextEditingController t1 = TextEditingController();
   TextEditingController t2 = TextEditingController();
+  //Toplama değikenleri
   sayitopla() {
     setState(() {
       sayi1 = num.parse(t1.text);
@@ -48,6 +49,7 @@ class _AnaEkranState extends State<AnaEkran> {
     });
   }
 
+  //Toplama değikenleri
   sayiCikar() {
     setState(() {
       sayi1 = num.parse(t1.text);
