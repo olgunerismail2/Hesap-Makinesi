@@ -59,6 +59,7 @@ class _AnaEkranState extends State<AnaEkran> {
     });
   }
 
+  //Çarpma değikeni
   sayiCarp() {
     setState(() {
       sayi1 = num.parse(t1.text);
@@ -67,6 +68,7 @@ class _AnaEkranState extends State<AnaEkran> {
     });
   }
 
+  // Bölme değişkeni
   sayiBol() {
     setState(() {
       sayi1 = num.parse(t1.text);
